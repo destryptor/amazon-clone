@@ -57,38 +57,48 @@
 
 .navbar_searchdropdown {
 	width: 60px;
-	height: 44px;
-	margin-top: 8px;
+	height: 40px;
+	margin-top: 9px;
 	background-color: #d4d4d4;
 	border-radius: 5px 0px 0px 5px;
 	text-align-last: center;
 }
 
 .navbar_searchbox {
-	width: 1000px;
-	height: 38px;
-	margin-top: 8px;
+	width: 975px;
+	height: 34px;
+	margin-top: 9px;
+	text-indent: 1%;
+	font-size: 14px;
 }
 
 .navbar_searchicon {
 	background: url('https://ik.imagekit.io/lk71zbgkh/amazon-image/sprite_350x.png?updatedAt=1708955110214') no-repeat -9px -289px;
 	width: 23px;
 	height: 23px;
-	margin: 13px;
+	margin: 10px 20px 10px 12px;
 }
 
 .navbar_searchboxdiv {
-	background-color: #f3a847;
-	height: 44px;
-	width: 48px;
+	background-color: #febd69;
+	height: 40px;
+	width: 45px;
 	border-radius: 0px 5px 5px 0px;
-	margin-top: 8px;
+	margin-top: 9px;
+}
+
+.navbar_language {
+	margin-top: 10px;
+	margin-left: 40px;
+	background-color: #131921;
+	border: #131921;
+	font-weight: bold;
 }
 
 .navbar_signin {
 	width: 120px;
 	margin-top: 14px;
-	margin-left: 92px;
+	margin-left: 25px;
 }
 
 .navbar_returns {
@@ -124,6 +134,26 @@
 	font-size: 14px;
 	font-weight: bold;
 }
+
 .navbar_text {
 	color: white;
+}
+
+.navbar_footer {
+	width: 100vw;
+	height: 40px;
+	background-color: #232f3e;
+	color: white;
+	display: flex;
+}
+
+.first {
+	margin-left: 20px;
+}
+
+.navbar_footer_text {
+	font-size: 15px;
+	font-weight: 500;
+	margin: 9px 8px;
+	padding: 0px 2px;
 }
