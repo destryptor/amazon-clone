@@ -1,0 +1,129 @@
+.navbar_component {
+	width: 100vw;
+	height: 60px;
+	background-color: #131921;
+	display: flex;
+}
+
+.navbar_logo {
+	display: flex;
+}
+
+.navbar_logo_img {
+	background: url('https://ik.imagekit.io/lk71zbgkh/amazon-image/sprite_350x.png?updatedAt=1708955110214') no-repeat -9px -50px;
+	width: 98px;
+	height: 31px;
+	margin: 17px 1px 0px 21px;
+}
+
+.navbar_logo_text {
+	color: white;
+	font-size: 14px;
+	margin-top: 18px;
+}
+
+.navbar_locator {
+	display: flex;
+	margin: 13px 20px;
+}
+
+.navbar_location {
+	color: white;
+	margin-left: 6px;
+}
+
+.navbar_location_deliver {
+	font-size: 12px;
+	color: #b4b5c7;
+}
+
+.navbar_location_change {
+	margin-top: -3px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.navbar_locator-image {
+	background: url('https://ik.imagekit.io/lk71zbgkh/amazon-image/sprite_350x.png?updatedAt=1708955110214') no-repeat no-repeat -70px -378px;
+	width: 16px;
+	height: 18px;
+	margin-top: 12px;
+}
+
+.navbar_searchcomponent {
+	display: flex;
+	margin-left: 15px;
+}
+
+.navbar_searchdropdown {
+	width: 60px;
+	height: 44px;
+	margin-top: 8px;
+	background-color: #d4d4d4;
+	border-radius: 5px 0px 0px 5px;
+	text-align-last: center;
+}
+
+.navbar_searchbox {
+	width: 1000px;
+	height: 38px;
+	margin-top: 8px;
+}
+
+.navbar_searchicon {
+	background: url('https://ik.imagekit.io/lk71zbgkh/amazon-image/sprite_350x.png?updatedAt=1708955110214') no-repeat -9px -289px;
+	width: 23px;
+	height: 23px;
+	margin: 13px;
+}
+
+.navbar_searchboxdiv {
+	background-color: #f3a847;
+	height: 44px;
+	width: 48px;
+	border-radius: 0px 5px 5px 0px;
+	margin-top: 8px;
+}
+
+.navbar_signin {
+	width: 120px;
+	margin-top: 14px;
+	margin-left: 92px;
+}
+
+.navbar_returns {
+	width: 80px;
+	margin-top: 14px;
+	margin-left: 15px;
+}
+
+.navbar_cart {
+	display: flex;
+	margin-top: 6px;
+	margin-left: 4px;
+}
+
+.cart_item {
+	font-weight: bold;
+	position: relative;
+	left: -23px;
+	top: 4px;
+	color: #f08804;
+}
+
+.cart-image {
+	background: url('https://ik.imagekit.io/lk71zbgkh/amazon-image/sprite_350x.png?updatedAt=1708955110214') no-repeat -217px -336px;
+	width: 43px;
+	height: 30px;
+	margin-top: 10px;
+}
+
+.navbar_text_cart {
+	margin-top: 20px;
+	margin-left: -10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.navbar_text {
+	color: white;
+}
