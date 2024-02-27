@@ -140,6 +140,7 @@
 }
 
 .navbar_footer {
+	padding-left: 13px;
 	width: 100vw;
 	height: 40px;
 	background-color: #232f3e;

@@ -58,7 +58,7 @@ const Navbar = () => {
 				</div>
 			</div>
 			<div className='navbar_footer'>
-				<div className='navbar_footer_text'>Fresh</div>
+				<div className='navbar_footer_text first'>Fresh</div>
 				<div className='navbar_footer_text'>Amazon miniTV</div>
 				<div className='navbar_footer_text'>Sell</div>
 				<div className='navbar_footer_text'>Best Sellers</div>
