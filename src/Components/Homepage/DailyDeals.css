@@ -1,0 +1,49 @@
+.dealcard {
+	display: flex;
+	flex-direction: column;
+	height: auto;
+}
+
+.img_container {
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+	width: 235px;
+	height: 190px;
+	background-color: #f7f8f8;
+}
+
+.img_container img {
+	padding: 0px 30px 0px 30px;
+}
+
+.title {
+	font-size: 14px;
+	width: 250px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-left: 10px;
+	margin-top: 3px;
+	color: #0f1111;
+}
+
+.dealbelt {
+	margin-left: 10px;
+}
+
+.discount {
+	color: white;
+	background-color: #cc0c39;
+	font-size: 12px;
+	padding: 3px 6px;
+	border-radius: 2px;
+	font-weight: bold;
+}
+
+.time {
+	color: #cc0c39;
+	font-size: 12px;
+	margin-left: 5px;
+	font-weight: bold;
+}
