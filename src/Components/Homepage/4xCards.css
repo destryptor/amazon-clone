@@ -25,6 +25,11 @@
 	width: 150px;
 }
 
+.card_item img {
+	max-width: 150px;
+	max-height: 150px;
+}
+
 .card_item p {
 	font-size: 12px;
 	margin: -1px 0px -2px 0px;

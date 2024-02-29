@@ -1,0 +1,33 @@
+.imagebelt {
+	margin-top: 20px;
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+	background-color: white;
+}
+
+.images_container {
+	margin-left: 20px;
+	margin-top: -10px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	overflow-x: hidden;
+}
+
+.images_container img {
+	margin-right: 10px;
+}
+
+.title_container {
+	margin-left: 20px;
+	display: flex;
+}
+
+.title_container p {
+	margin-left: 15px;
+	margin-top: 25px;
+	color: #229aaf;
+	font-size: 14px;
+}

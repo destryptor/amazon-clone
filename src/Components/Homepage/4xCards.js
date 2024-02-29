@@ -9,11 +9,11 @@ const Cards = ({ card }) => {
 				{card.items.map((item) => (
 					<div className='card_item'>
 						<img src={item.link} alt={item.name} />
-						<p>{item.name}</p>
+						<p>{item.name ? item.name : ''}</p>
 					</div>
 				))}
 			</div>
-			<p className='endline'>{card.endline}</p>
+			<p className='endline'>{card.endline ? card.endline : ''}</p>
 		</div>
 	);
 };
