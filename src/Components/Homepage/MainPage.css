@@ -14,11 +14,11 @@
 }
 
 .belt {
-	height: 200px;
+	height: 275px;
 }
 
 .card_container {
-	margin-top: 30px;
+	margin-top: -45px;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -50,6 +50,7 @@
 .deals_container {
 	margin-left: 10px;
 	margin-right: 20px;
+	margin-bottom: 20px;
 	display: flex;
 	flex-wrap: nowrap;
 	overflow: hidden;
@@ -68,5 +69,22 @@
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
-	height: 550px;
+}
+
+.pricecards_container {
+	margin: -20px 20px 50px 20px;
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: hidden;
+	background-color: white;
+	height: 325px;
+}
+
+.pricecards {
+	margin-left: 10px;
+	display: flex;
+}
+
+.belt2 {
+	height: 0.5px;
 }

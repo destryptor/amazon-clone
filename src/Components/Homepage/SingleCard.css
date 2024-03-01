@@ -1,0 +1,25 @@
+.singlecard {
+	margin: 20px 0px 0px 20px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 350px;
+	height: 420px;
+	background-color: white;
+}
+
+.singlecard h3 {
+	margin: 20px 0px 10px 20px;
+	font-size: 20px;
+}
+
+.img_container {
+	width: 300px;
+	height: 250px;
+	margin: 0px 0px 0px 25px;
+}
+
+.singlecard p {
+	margin: 0px 0px 10px 20px;
+	font-size: 14px;
+	color: #229aaf;
+}
