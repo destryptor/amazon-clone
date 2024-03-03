@@ -468,67 +468,78 @@ const MainPage = () => {
 	];
 
 	return (
-		<div className='mainpage_container'>
-			<div className='mainpage'>
-				<div className='belt'></div>
-				<div className='card_container'>
-					{carditems.slice(0, 8).map((card) => (
-						<Cards card={card} />
-					))}
-				</div>
-				<div className='dailydeals_container'>
-					<div className='deals_title_container'>
-						<h3>Today's Deals</h3>
-						<span>See all deals</span>
-					</div>
-					<div className='deals_container'>
-						{dailydeals.map((deal) => (
-							<DailyDeals deal={deal} />
+		<>
+			<div className='mainpage_container'>
+				<div className='mainpage'>
+					<div className='belt'></div>
+					<div className='card_container'>
+						{carditems.slice(0, 8).map((card) => (
+							<Cards card={card} />
 						))}
 					</div>
-				</div>
-				<div className='imagebelt_container'>
-					<ImageBelt title={imageBelt[0].title} links={imageBelt[0].links} />
-					<ImageBelt title={imageBelt[1].title} links={imageBelt[1].links} />
-				</div>
-				<div className='card_container'>
-					{carditems.slice(8, 12).map((card) => (
-						<Cards card={card} />
-					))}
-				</div>
-				<div className='imagebelt_container'>
-					<ImageBelt title={imageBelt[2].title} links={imageBelt[2].links} />
-					<ImageBelt title={imageBelt[3].title} links={imageBelt[3].links} />
-				</div>
-				<div className='card_container'>
-					{carditems.slice(12, 16).map((card) => (
-						<SingleCard card={card} />
-					))}
-				</div>
-				<div className='imagebelt_container'>
-					<ImageBelt title={imageBelt[4].title} links={imageBelt[4].links} />
-				</div>
-				<div className='pricecards_container'>
-					<div className='pricecards'>
-						{pricecards.map((card) => (
-							<PriceCard card={card} />
+					<div className='dailydeals_container'>
+						<div className='deals_title_container'>
+							<h3>Today's Deals</h3>
+							<span>See all deals</span>
+						</div>
+						<div className='deals_container'>
+							{dailydeals.map((deal) => (
+								<DailyDeals deal={deal} />
+							))}
+						</div>
+					</div>
+					<div className='imagebelt_container'>
+						<ImageBelt title={imageBelt[0].title} links={imageBelt[0].links} />
+						<ImageBelt title={imageBelt[1].title} links={imageBelt[1].links} />
+					</div>
+					<div className='card_container'>
+						{carditems.slice(8, 12).map((card) => (
+							<Cards card={card} />
 						))}
 					</div>
+					<div className='imagebelt_container'>
+						<ImageBelt title={imageBelt[2].title} links={imageBelt[2].links} />
+						<ImageBelt title={imageBelt[3].title} links={imageBelt[3].links} />
+					</div>
+					<div className='card_container'>
+						{carditems.slice(12, 16).map((card) => (
+							<SingleCard card={card} />
+						))}
+					</div>
+					<div className='imagebelt_container'>
+						<ImageBelt title={imageBelt[4].title} links={imageBelt[4].links} />
+					</div>
+					<div className='pricecards_container'>
+						<div className='pricecards'>
+							{pricecards.map((card) => (
+								<PriceCard card={card} />
+							))}
+						</div>
+					</div>
+					<div className='card_container'>
+						{carditems.slice(18, 20).map((card) => (
+							<SingleCard card={card} />
+						))}
+						{carditems.slice(16, 18).map((card) => (
+							<Cards card={card} />
+						))}
+					</div>
+					<div className='imagebelt_container'>
+						<ImageBelt title={imageBelt[5].title} links={imageBelt[5].links} />
+					</div>
+					<div className='belt2'></div>
 				</div>
-				<div className='card_container'>
-					{carditems.slice(18, 20).map((card) => (
-						<SingleCard card={card} />
-					))}
-					{carditems.slice(16, 18).map((card) => (
-						<Cards card={card} />
-					))}
-				</div>
-				<div className='imagebelt_container'>
-					<ImageBelt title={imageBelt[5].title} links={imageBelt[5].links} />
-				</div>
-				<div className='belt2'></div>
 			</div>
-		</div>
+			<div className='sign_in_container'>
+				<div className='add_container'>
+					<span className='recom'>See personalised recommendations</span>
+					<button>Sign in</button>
+					<p>
+						New customer? <span className='start'>Start here</span>
+					</p>
+				</div>
+			</div>
+		</>
 	);
 };
 

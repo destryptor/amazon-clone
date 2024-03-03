@@ -88,3 +88,53 @@
 .belt2 {
 	height: 0.5px;
 }
+
+.sign_in_container {
+	margin: -20px 0px 0px 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	height: 200px;
+}
+
+.add_container {
+	margin-top: 45px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: #dddddd solid 1px;
+	width: 100vw;
+	height: 120px;
+	margin-bottom: 20px;
+}
+
+.recom {
+	margin-top: 40px;
+	font-size: 13px;
+}
+
+.add_container button {
+	margin-top: 3px;
+	width: 220px;
+	padding: 5px;
+	border-radius: 5px;
+	background: linear-gradient(to bottom, #ffd875 20%, #ffc636 100%);
+	border: 1px solid;
+	border-color: #e6a400;
+	color: #111;
+	font-weight: bold;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.add_container p {
+	margin-top: 2px;
+	font-size: 11px;
+	color: #111;
+}
+
+.add_container p > span {
+	color: #229aaf;
+}
