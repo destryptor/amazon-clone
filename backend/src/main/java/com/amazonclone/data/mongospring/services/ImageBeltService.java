@@ -1,9 +1,10 @@
-package com.amazonclone.mongospring.services;
+package com.amazonclone.data.mongospring.services;
 
-import com.amazonclone.mongospring.model.ImageBelt;
-import com.amazonclone.mongospring.repositories.ImageBeltRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.amazonclone.data.mongospring.model.ImageBelt;
+import com.amazonclone.data.mongospring.repositories.ImageBeltRepository;
 
 import java.util.List;
 

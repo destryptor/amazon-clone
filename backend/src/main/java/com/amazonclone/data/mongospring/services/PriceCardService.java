@@ -1,9 +1,10 @@
-package com.amazonclone.mongospring.services;
+package com.amazonclone.data.mongospring.services;
 
-import com.amazonclone.mongospring.model.PriceCard;
-import com.amazonclone.mongospring.repositories.PriceCardRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.amazonclone.data.mongospring.model.PriceCard;
+import com.amazonclone.data.mongospring.repositories.PriceCardRepository;
 
 import java.util.List;
 

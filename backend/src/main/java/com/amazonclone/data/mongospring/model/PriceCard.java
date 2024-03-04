@@ -1,4 +1,4 @@
-package com.amazonclone.mongospring.model;
+package com.amazonclone.data.mongospring.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

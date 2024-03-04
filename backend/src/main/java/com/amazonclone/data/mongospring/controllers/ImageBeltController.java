@@ -1,11 +1,12 @@
-package com.amazonclone.mongospring.controllers;
+package com.amazonclone.data.mongospring.controllers;
 
-import com.amazonclone.mongospring.model.ImageBelt;
-import com.amazonclone.mongospring.services.ImageBeltService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.amazonclone.data.mongospring.model.ImageBelt;
+import com.amazonclone.data.mongospring.services.ImageBeltService;
 
 import java.util.List;
 

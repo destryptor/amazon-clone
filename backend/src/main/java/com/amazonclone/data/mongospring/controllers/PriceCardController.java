@@ -1,11 +1,12 @@
-package com.amazonclone.mongospring.controllers;
+package com.amazonclone.data.mongospring.controllers;
 
-import com.amazonclone.mongospring.model.PriceCard;
-import com.amazonclone.mongospring.services.PriceCardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.amazonclone.data.mongospring.model.PriceCard;
+import com.amazonclone.data.mongospring.services.PriceCardService;
 
 import java.util.List;
 

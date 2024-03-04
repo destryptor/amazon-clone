@@ -1,4 +1,4 @@
-package com.amazonclone.mongospring.model;
+package com.amazonclone.data.mongospring.model;
 
 public class Item {
     private String name;
@@ -16,6 +16,7 @@ public class Item {
     public String getName() {
         return name;
     }
+
     public String getLink() {
         return link;
     }

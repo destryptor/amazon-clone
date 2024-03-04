@@ -1,9 +1,10 @@
-package com.amazonclone.mongospring.services;
+package com.amazonclone.data.mongospring.services;
 
-import com.amazonclone.mongospring.model.DailyDeal;
-import com.amazonclone.mongospring.repositories.DailyDealRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.amazonclone.data.mongospring.model.DailyDeal;
+import com.amazonclone.data.mongospring.repositories.DailyDealRepository;
 
 import java.util.List;
 

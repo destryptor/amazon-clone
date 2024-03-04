@@ -1,9 +1,10 @@
-package com.amazonclone.mongospring.services;
+package com.amazonclone.data.mongospring.services;
 
-import com.amazonclone.mongospring.model.CardItem;
-import com.amazonclone.mongospring.repositories.CardItemRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.amazonclone.data.mongospring.model.CardItem;
+import com.amazonclone.data.mongospring.repositories.CardItemRepository;
 
 import java.util.List;
 
