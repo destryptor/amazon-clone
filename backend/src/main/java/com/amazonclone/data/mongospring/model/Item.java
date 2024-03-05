@@ -1,23 +1,20 @@
 package com.amazonclone.data.mongospring.model;
 
 public class Item {
-    private String name;
     private String link;
+    private String name;
 
-    public Item(String name, String link) {
-        this.name = name;
+    public Item(String link, String name) {
         this.link = link;
+        this.name = name;
     }
 
-    public Item(String link) {
-        this.link = link;
+    public String getLink() {
+        return link;
     }
 
     public String getName() {
         return name;
     }
 
-    public String getLink() {
-        return link;
-    }
 }

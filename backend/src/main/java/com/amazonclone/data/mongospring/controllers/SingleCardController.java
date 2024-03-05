@@ -6,25 +6,25 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.amazonclone.data.mongospring.model.DailyDeal;
-import com.amazonclone.data.mongospring.services.DailyDealService;
+import com.amazonclone.data.mongospring.model.SingleCard;
+import com.amazonclone.data.mongospring.services.SingleCardService;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/DailyDeals")
-public class DailyDealController {
+@RequestMapping("/SingleCards")
+public class SingleCardController {
 
-    private final DailyDealService dailyDealService;
+    private final SingleCardService singleCardService;
 
     @Autowired
-    public DailyDealController(DailyDealService dailyDealService) {
-        this.dailyDealService = dailyDealService;
+    public SingleCardController(SingleCardService singleCardService) {
+        this.singleCardService = singleCardService;
     }
 
     @CrossOrigin(origins = "http://localhost:3000")
     @GetMapping
-    public List<DailyDeal> getAllDailyDeals() {
-        return dailyDealService.getAllDailyDeals();
+    public List<SingleCard> getAllCardItems() {
+        return singleCardService.getAllCardItems();
     }
 }

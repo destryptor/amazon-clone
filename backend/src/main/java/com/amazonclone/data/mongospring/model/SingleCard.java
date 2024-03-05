@@ -2,21 +2,20 @@ package com.amazonclone.data.mongospring.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
-import java.util.List;
 
-@Document(collection = "cardItem")
-public class CardItem {
+@Document(collection = "singleCard")
+public class SingleCard {
     @Id
     private String id;
     private Integer no;
     private String title;
-    private List<Item> items;
+    private String link;
     private String endline;
 
-    public CardItem(Integer no, String title, List<Item> items, String endline) {
+    public SingleCard(Integer no, String title, String link, String endline) {
         this.no = no;
         this.title = title;
-        this.items = items;
+        this.link = link;
         this.endline = endline;
     }
 
@@ -32,8 +31,8 @@ public class CardItem {
         return title;
     }
 
-    public List<Item> getItems() {
-        return items;
+    public String getLink() {
+        return link;
     }
 
     public String getEndline() {

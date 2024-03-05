@@ -7,12 +7,14 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class DailyDeal {
     @Id
     private String id;
+    private Integer no;
     private String link;
     private String discount;
     private String time;
     private String title;
 
-    public DailyDeal(String link, String discount, String time, String title) {
+    public DailyDeal(Integer no, String link, String discount, String time, String title) {
+        this.no = no;
         this.link = link;
         this.discount = discount;
         this.time = time;
@@ -21,6 +23,10 @@ public class DailyDeal {
 
     public String getId() {
         return id;
+    }
+
+    public Integer getNo() {
+        return no;
     }
 
     public String getLink() {

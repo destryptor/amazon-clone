@@ -8,16 +8,22 @@ import java.util.List;
 public class ImageBelt {
     @Id
     private String id;
+    private Integer no;
     private String title;
     private List<String> links;
 
-    public ImageBelt(String title, List<String> links) {
+    public ImageBelt(Integer no, String title, List<String> links) {
+        this.no = no;
         this.title = title;
         this.links = links;
     }
 
     public String getId() {
         return id;
+    }
+
+    public Integer getNo() {
+        return no;
     }
 
     public String getTitle() {
